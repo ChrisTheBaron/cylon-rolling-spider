@@ -1,0 +1,32 @@
+{
+  "name": "cylon-rolling-spider",
+  "version": "0.1.0",
+  "main": "lib/cylon-rolling-spider.js",
+  "description": "Cylon module for RollingSpider",
+  "homepage": "http://cylonjs.com",
+  "bugs": "https://bitbucket.org/ChrisTheBaron/cylon-rolling-spider/issues",
+  "author": "Chris Taylor <christhebaron@gmail.com> (http://www.christhebaron.co.uk)",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/ChrisTheBaron/cylon-rolling-spider.git"
+  },
+  "licenses": [
+    {
+      "name": "The MIT License (MIT)",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "sinon-chai": "2.6.0",
+    "chai": "1.9.2",
+    "mocha": "1.21.5",
+    "sinon": "1.10.3"
+  },
+  "peerDependencies": {
+    "cylon": ">=0.22.0 < 1"
+  },
+  "dependencies": {
+    "cylon": "~0.22.0",
+    "parrot-rolling-spider": "0.1.*"
+  }
+}
