@@ -26,7 +26,31 @@ Cylon.robot({
   device: {name: 'rolling-spider', driver: 'rolling-spider'},
 
   work: function(my) {
-    // provide an example of your module here
+    
+    my.drone.trim();
+    
+	my.drone.takeOff();
+
+	after(1000, function () {
+
+		my.drone.clockwise(100);
+
+		after(2500, function () {
+
+			my.drone.clockwise(0);
+
+			my.drone.land();
+
+			after(1500, function () {
+
+				Cylon.halt();
+
+			});
+
+		});
+
+	});
+    
   }
 }).start();
 ```
@@ -54,7 +78,7 @@ Thank you!
 
 ## Release History
 
-None yet...
+0.1.0 - Able to take off, land, and drift around. Flips not tested yet
 
 ## License
 
