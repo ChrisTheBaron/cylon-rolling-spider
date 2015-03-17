@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "main": "lib/cylon-rolling-spider.js",
   "description": "Cylon module for RollingSpider",
+  "keywords": [
+    "parrot",
+    "drone",
+    "spider",
+    "rolling",
+    "cylon",
+    "cylonjs"
+  ],
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/ChrisTheBaron/cylon-rolling-spider/issues",
   "author": "Chris Taylor <christhebaron@gmail.com> (http://www.christhebaron.co.uk)",
