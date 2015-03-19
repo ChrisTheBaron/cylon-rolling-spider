@@ -82,6 +82,8 @@ Thank you!
 
 0.1.1 - Added example code in README, also added previous release history
 
+0.2.0 - Added ability to do flips. Added documentation for existing commands. Updates adaptor to use new constructor. Updates driver to call disconnect function
+
 ## License
 
 Copyright (c) 2015 Chris Taylor. See `LICENSE` for more details
