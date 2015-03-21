@@ -20,11 +20,15 @@ Causes the drone to do an amazing front flip.
 Causes the drone to do an amazing back flip.
 ## client.leftFlip() 
 **This has not been confirmed as working.**
+
 **DO NOT USE WITH THE WHEELS ON.**
+
 Causes the drone to do an amazing left flip. 
 ## client.rightFlip()
 **This has not been confirmed as working.**
+
 **DO NOT USE WITH THE WHEELS ON.**
+
 Causes the drone to do an amazing right flip. 
 ## client.trim()
 Resets the trim so that your drone's flight is stable. It should always be
