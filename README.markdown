@@ -67,10 +67,10 @@ Thank you!
   * For git help see [progit](http://git-scm.com/book) which is an awesome (and free) book on git
   
 ## Release History
-0.1.0 - Able to take off, land, and drift around. Flips not tested yet
+0.2.0 - Added ability to do flips. Added documentation for existing commands. Updates adaptor to use new constructor. Updates driver to call disconnect function
 
 0.1.1 - Added example code in README, also added previous release history
 
-0.2.0 - Added ability to do flips. Added documentation for existing commands. Updates adaptor to use new constructor. Updates driver to call disconnect function
+0.1.0 - Able to take off, land, and drift around. Flips not tested yet
 ## License
 Copyright (c) 2015 Chris Taylor. See `LICENSE` for more details
