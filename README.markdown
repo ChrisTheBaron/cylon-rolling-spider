@@ -1,5 +1,4 @@
 # Cylon.js For RollingSpider
-
 Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics and
 physical computing using Node.js
 
@@ -7,17 +6,12 @@ This repository contains the Cylon adaptor for RollingSpider.
 
 For more information about Cylon, check out the repo at
 https://github.com/hybridgroup/cylon
-
 ## How to Install
-
 Install the module with:
-
-    $ npm install cylon-rolling-spider
-
+``` bash
+$ npm install cylon-rolling-spider
+```
 ## How to Use
-
-## How to Connect
-
 ```javascript
 var Cylon = require('cylon');
 
@@ -54,17 +48,13 @@ Cylon.robot({
   }
 }).start();
 ```
-
-Explain how to connect from the computer to the device here...
-
+## How to Connect
+You will need a Bluetooth adaptor capable of using the new BLE protocols. 
 ## Documentation
-
 We're busy adding documentation to our web site at http://cylonjs.com/ please check there as we continue to work on Cylon.js
 
 Thank you!
-
 ## Contributing
-
 * Put your contribution guidelines here
 * Submit a Pull Request to the appropriate branch and ideally discuss the changes with us in IRC.
 * We will look at the patch, test it out, and give you feedback.
@@ -75,15 +65,11 @@ Thank you!
   * If there are commits after yours use “git rebase -i <new_head_branch>”
   * If you have local changes you may need to use “git stash”
   * For git help see [progit](http://git-scm.com/book) which is an awesome (and free) book on git
-
 ## Release History
-
 0.1.0 - Able to take off, land, and drift around. Flips not tested yet
 
 0.1.1 - Added example code in README, also added previous release history
 
 0.2.0 - Added ability to do flips. Added documentation for existing commands. Updates adaptor to use new constructor. Updates driver to call disconnect function
-
 ## License
-
 Copyright (c) 2015 Chris Taylor. See `LICENSE` for more details
