@@ -65,6 +65,7 @@ Thank you!
   * If there are commits after yours use “git rebase -i <new_head_branch>”
   * If you have local changes you may need to use “git stash”
   * For git help see [progit](http://git-scm.com/book) which is an awesome (and free) book on git
+  
 ## Release History
 0.1.0 - Able to take off, land, and drift around. Flips not tested yet
 
