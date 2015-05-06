@@ -12,17 +12,17 @@
   "eqnull": true,
   "node": true,
   "predef": [
-    "Cylon",
-    "Logger",
-    "after",
-    "bind",
-    "constantly",
-    "every",
-    "hasProp",
-    "proxyFunctionsToObject",
-    "proxyTestStubs",
-    "sleep",
-    "slice",
-    "subclass"
+	"Cylon",
+	"Logger",
+	"after",
+	"bind",
+	"constantly",
+	"every",
+	"hasProp",
+	"proxyFunctionsToObject",
+	"proxyTestStubs",
+	"sleep",
+	"slice",
+	"subclass"
   ]
 }
