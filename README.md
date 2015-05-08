@@ -16,41 +16,39 @@ $ npm install cylon-rolling-spider
 var Cylon = require('cylon');
 
 Cylon.robot({
-  connection: { name: 'rolling-spider', adaptor: 'rolling-spider' },
-  device: {name: 'rolling-spider', driver: 'rolling-spider'},
 
-  work: function(my) {
-    
-    my.drone.trim();
-    
-	my.drone.takeOff();
+	connection: { name: 'rolling-spider', adaptor: 'rolling-spider' },
+	device: {name: 'rolling-spider', driver: 'rolling-spider'},
 
-	after(1000, function () {
-
-		my.drone.clockwise(100);
-
-		after(2500, function () {
-
-			my.drone.clockwise(0);
-
-			my.drone.land();
-
-			after(1500, function () {
-
+	work: function (my) {
+  
+		my.drone.wheelOn();
+  
+  		my.drone.flatTrim();
+  
+  		my.drone.takeOff();
+  
+  		after(2500, function () {
+  
+  			my.drone.land();
+  
+  			after(1500, function () {
+  
 				Cylon.halt();
-
+  
 			});
-
+  
 		});
-
-	});
-    
-  }
+  
+	}
+  	
 }).start();
 ```
 ## How to Connect
 You will need a Bluetooth adaptor capable of using the new BLE protocols. 
 ## Documentation
+Please look under `/docs` for documentation on commands and events.
+
 We're busy adding documentation to our web site at http://cylonjs.com/ please check there as we continue to work on Cylon.js
 
 Thank you!

@@ -1,5 +1,5 @@
-/*
- * cylon-rolling-spider
+/**
+ * cylon-rolling-spider example
  * http://cylonjs.com
  *
  * Copyright (c) 2015 Chris Taylor
@@ -27,29 +27,24 @@ Cylon.robot({
 
 	work: function (my) {
 
-		my.drone.trim();
+		my.drone.wheelOn();
+
+		my.drone.flatTrim();
 
 		my.drone.takeOff();
 
-		after(1000, function () {
+		after(2500, function () {
 
-			my.drone.clockwise(100);
+			my.drone.land();
 
-			after(2500, function () {
+			after(1500, function () {
 
-				my.drone.clockwise(0);
-
-				my.drone.land();
-
-				after(1500, function () {
-
-					Cylon.halt();
-
-				});
+				Cylon.halt();
 
 			});
 
 		});
 
 	}
+
 }).start();

@@ -9,7 +9,10 @@
     "spider",
     "rolling",
     "cylon",
-    "cylonjs"
+    "cylonjs",
+	"bluetooth",
+	"ble",
+	"iot"
   ],
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/ChrisTheBaron/cylon-rolling-spider/issues",
@@ -30,12 +33,9 @@
     "mocha": "1.21.5",
     "sinon": "1.10.3"
   },
-  "peerDependencies": {
-    "cylon": ">=0.22.0 < 1"
-  },
   "dependencies": {
-    "cylon": "~0.22.0",
-    "parrot-rolling-spider": "^1.0.0"
+    "cylon": "^0.22.0",
+    "rolling-spider": "~1.0.0"
   },
   "os": [
     "darwin",
