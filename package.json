@@ -1,6 +1,6 @@
 {
   "name": "cylon-rolling-spider",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "main": "lib/cylon-rolling-spider.js",
   "description": "Cylon module for RollingSpider",
   "keywords": [
@@ -10,9 +10,9 @@
     "rolling",
     "cylon",
     "cylonjs",
-	"bluetooth",
-	"ble",
-	"iot"
+    "bluetooth",
+    "ble",
+    "iot"
   ],
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/ChrisTheBaron/cylon-rolling-spider/issues",
