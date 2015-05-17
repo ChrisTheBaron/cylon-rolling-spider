@@ -2,7 +2,9 @@
 Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics and
 physical computing using Node.js
 
-This repository contains the Cylon adaptor for RollingSpider.
+This repository contains the Cylon adaptor/driver for the Parrot Rolling Spider.
+
+The implementation uses the [node-rolling-spider](https://github.com/FluffyJack/node-rolling-spider) node module from [@FluffyJack](https://github.com/FluffyJack/). Thank you!
 
 For more information about Cylon, check out the repo at
 https://github.com/hybridgroup/cylon
@@ -17,8 +19,13 @@ var Cylon = require('cylon');
 
 Cylon.robot({
 
-	connection: { name: 'rolling-spider', adaptor: 'rolling-spider' },
-	device: {name: 'rolling-spider', driver: 'rolling-spider'},
+	connections: {
+    'rolling-spider': { adaptor: 'rolling-spider' },
+  },
+
+	devices: {
+    'rolling-spider': { driver: 'rolling-spider' },
+  }
 
 	work: function (my) {
   
