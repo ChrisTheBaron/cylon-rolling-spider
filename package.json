@@ -1,6 +1,6 @@
 {
   "name": "cylon-rolling-spider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/cylon-rolling-spider.js",
   "description": "Cylon module for RollingSpider",
   "keywords": [
