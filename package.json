@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "cylon": "^1.0.0",
-    "rolling-spider": "~1.0.0"
+    "rolling-spider": "~1.1.0"
   },
   "os": [
     "darwin",
