@@ -1,44 +1,44 @@
 {
   "name": "cylon-rolling-spider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/cylon-rolling-spider.js",
   "description": "Cylon module for RollingSpider",
   "keywords": [
-    "parrot",
-    "drone",
-    "spider",
-    "rolling",
-    "cylon",
-    "cylonjs",
-    "bluetooth",
-    "ble",
-    "iot"
+	"parrot",
+	"drone",
+	"spider",
+	"rolling",
+	"cylon",
+	"cylonjs",
+	"bluetooth",
+	"ble",
+	"iot"
   ],
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/ChrisTheBaron/cylon-rolling-spider/issues",
   "author": "Chris Taylor <christhebaron@gmail.com> (http://www.christhebaron.co.uk)",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/ChrisTheBaron/cylon-rolling-spider.git"
+	"type": "git",
+	"url": "https://github.com/ChrisTheBaron/cylon-rolling-spider.git"
   },
   "licenses": [
-    {
-      "name": "The MIT License (MIT)",
-      "url": "http://opensource.org/licenses/MIT"
-    }
+	{
+	  "name": "The MIT License (MIT)",
+	  "url": "http://opensource.org/licenses/MIT"
+	}
   ],
   "devDependencies": {
-    "sinon-chai": "2.6.0",
-    "chai": "1.9.2",
-    "mocha": "1.21.5",
-    "sinon": "1.10.3"
+	"sinon-chai": "2.6.0",
+	"chai": "1.9.2",
+	"mocha": "1.21.5",
+	"sinon": "1.10.3"
   },
   "dependencies": {
-    "cylon": "^1.0.0",
-    "rolling-spider": "~1.1.0"
+	"cylon": "^1.0.0",
+	"rolling-spider": "~1.1.0"
   },
   "os": [
-    "darwin",
-    "linux"
+	"darwin",
+	"linux"
   ]
 }
