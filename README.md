@@ -24,7 +24,7 @@ Cylon.robot({
   },
 
 	devices: {
-    'rolling-spider': { driver: 'rolling-spider' },
+    drone: { driver: 'rolling-spider' },
   }
 
 	work: function (my) {
