@@ -20,12 +20,12 @@ var Cylon = require('cylon');
 Cylon.robot({
 
 	connections: {
-    'rolling-spider': { adaptor: 'rolling-spider' },
-  },
+		'rolling-spider': { adaptor: 'rolling-spider' },
+	},
 
 	devices: {
-    'rolling-spider': { driver: 'rolling-spider' },
-  }
+    	'rolling-spider': { driver: 'rolling-spider' },
+	},
 
 	work: function (my) {
   
