@@ -36,9 +36,5 @@
   "dependencies": {
     "cylon": "^1.2.0",
     "rolling-spider": "^1.5.0"
-  },
-  "os": [
-    "darwin",
-    "linux"
-  ]
+  }
 }
