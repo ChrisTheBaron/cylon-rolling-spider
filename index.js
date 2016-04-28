@@ -8,8 +8,8 @@
 
 'use strict';
 
-var Adaptor = require('./adaptor'),
-	Driver = require('./driver');
+var Adaptor = require('./lib/adaptor'),
+	Driver = require('./lib/driver');
 
 module.exports = {
 	// Adaptors your module provides, e.g. ['spark']
