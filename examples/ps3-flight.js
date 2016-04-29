@@ -12,7 +12,8 @@ cylon.robot({
   work: function() {
     var that = this,
         rightStick = { x: 0.0, y: 0.0 },
-        leftStick = { x: 0.0, y: 0.0 };
+        leftStick = { x: 0.0, y: 0.0 },
+        cmd = {};
 
     that.controller.on("circle:press", function() {
       that.drone.frontFlip();
@@ -77,7 +78,12 @@ cylon.robot({
         turn = validatePitch(rightStick.x) * -1;
       }
 
-      that.drone.drive(tilt, forward, turn, up, steps);
+      cmd.tilt = tilt;
+      cmd.forward = forward;
+      cmd.turn = turn;
+      cmd.up = up;
+
+      that.drone.drive(cmd, steps);
     }, 0);
   }
 }).start();
@@ -94,4 +100,3 @@ function validatePitch(data) {
     return 0 ;
   }
 }
-
