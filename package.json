@@ -17,16 +17,14 @@
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/ChrisTheBaron/cylon-rolling-spider/issues",
   "author": "Chris Taylor <christhebaron@gmail.com> (http://www.christhebaron.co.uk)",
+  "scripts": {
+	"test": "make test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ChrisTheBaron/cylon-rolling-spider.git"
   },
-  "licenses": [
-    {
-      "name": "The MIT License (MIT)",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "devDependencies": {
     "sinon-chai": "^2.8.0",
     "chai": "^3.5.0",
