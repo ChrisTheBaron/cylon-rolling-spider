@@ -1,6 +1,6 @@
 "use strict";
 
-var module = source("cylon-rolling-spider");
+var module = source("../index");
 
 var Adaptor = source('adaptor'),
 	Driver = source('driver');
