@@ -54,28 +54,28 @@ cylon.robot({
           up = 0,
           steps = 1;
 
-      if (leftStick.y < 0) {
-        forward = validatePitch(leftStick.y);
-      } else if (leftStick.y > 0) {
-        forward = validatePitch(leftStick.y) * -1;
-      }
-
-      if (leftStick.x > 0) {
-        tilt = validatePitch(leftStick.x);
-      } else if (leftStick.x < 0) {
-        tilt = validatePitch(leftStick.x) * -1;
-      }
-
       if (rightStick.y < 0) {
-        up = validatePitch(rightStick.y);
+        forward = validatePitch(rightStick.y);
       } else if (rightStick.y > 0) {
-        up = validatePitch(rightStick.y) * -1;
+        forward = validatePitch(rightStick.y) * -1;
       }
 
       if (rightStick.x > 0) {
-        turn = validatePitch(rightStick.x);
+        tilt = validatePitch(rightStick.x);
       } else if (rightStick.x < 0) {
-        turn = validatePitch(rightStick.x) * -1;
+        tilt = validatePitch(rightStick.x) * -1;
+      }
+
+      if (leftStick.y < 0) {
+        up = validatePitch(leftStick.y);
+      } else if (leftStick.y > 0) {
+        up = validatePitch(leftStick.y) * -1;
+      }
+
+      if (leftStick.x > 0) {
+        turn = validatePitch(leftStick.x);
+      } else if (leftStick.x < 0) {
+        turn = validatePitch(leftStick.x) * -1;
       }
 
       cmd.tilt = tilt;
