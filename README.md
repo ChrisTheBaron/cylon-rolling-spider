@@ -72,7 +72,14 @@ Thank you!
   * For git help see [progit](http://git-scm.com/book) which is an awesome (and free) book on git
   
 ## Release History
-1.2.0 - Upgraded dependencies to latest version. 
+
+1.2.2 - Reverse control sticks to match 'normal' RC controls.
+
+1.2.1 - Upgraded dependencies to latest version.
+
+1.2.0 - Upgraded dependencies to latest version.
+
+1.1.0 - Add support for 'drive' function needed for smooth joystick flight.
 
 1.0.0 - Upgraded dependencies to latest version. 
 
